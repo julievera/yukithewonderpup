@@ -130,6 +130,12 @@ nav li{
     display:inline-block;
     padding-left:20px;
     padding-right:20px;
+    color:black;
+}
+
+nav li:hover{
+    color:white;
+    background-color:black;
 }
 
 #title h1 {
@@ -151,6 +157,7 @@ span {
     color:;
 }
 
+/* WRAPPERS */
 #headwrapper p {
     font-style: oblique;
 }
@@ -159,15 +166,17 @@ span {
     width:100%;
 }
 
+/* POST STYLES */
 #post {
     width:70%;
-    height:900px;
+
     display:inline-block;
     float:left;
 }
 
-#post_content {
+#post_content, #post_content_noblog {
     padding:30px;
+    font-family:'Lato', sans-serif;
 }
 
 #post_date h5{
@@ -181,6 +190,31 @@ span {
 #post_text a {
     text-decoration:none;
     color:#6495ed;
+}
+
+/* BUTTON STYLES */
+#newerbutton {
+    float:left;
+    margin-left:30px;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+#olderbutton {
+    float:right;
+    margin-right:30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/*SIDE BAR*/
+
+.headerbox {
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
 }
 
 #sidebar {
@@ -201,6 +235,11 @@ span {
     padding-right:10px;
 }
 
+#sidebarelements {
+    padding:10px;
+    padding-top:50px;
+}
+
 #bioimg {
     text-align:center;
 
@@ -212,17 +251,7 @@ span {
 }
 
 
-#sidebarelements {
-    padding:10px;
-    padding-top:50px;
-}
-
-.headerbox {
-    background-color:black;
-    color:white;
-    text-align:center;
-}
-
+/* FOOTER */
 footer {
     width:100%;
     height:100px;
@@ -232,6 +261,8 @@ footer {
     padding:30px;
 }
 
+/* LINK STYLES */
+
 a:link {
     text-decoration:none;
     color:#6495ed;
@@ -240,18 +271,6 @@ a:visited {
     text-decoration:none;
     color:#6495ed;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
