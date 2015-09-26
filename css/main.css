@@ -195,7 +195,7 @@ span {
 /* BUTTON STYLES */
 #newerbutton {
     float:left;
-    margin-left:30px;
+    margin:30px;
     padding-left:10px;
     padding-right:10px;
 
@@ -203,7 +203,7 @@ span {
 
 #olderbutton {
     float:right;
-    margin-right:30px;
+    margin:30px;
     padding-left:10px;
     padding-right:10px;
 }
