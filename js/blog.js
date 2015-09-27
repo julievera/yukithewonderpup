@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$.post('php/blog.php', {postoffset: 0}, function(data) {
- 		$('#post_content').html(data);
+		$('#post_content').html(data);
  		$('#post_content').attr('data-postoffset', 0);
 	});
 
