@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 	$('#olderbutton').click(function(){
 		var offset = parseInt($('#post_content').attr('data-postoffset'));
-		$.get('php/blog.php?postindex=' + (offset+1)}, function(data) {
+		$.get('php/blog.php?postindex=' + (offset+1), function(data) {
  			$('#post_content').html(data);
  			$('#post_content').attr('data-postoffset', offset+1);
 		});
