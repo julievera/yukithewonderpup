@@ -1,7 +1,5 @@
 <?php
-	$handle = fopen('log.txt','a');
-	fwrite($handle, $_POST);
-	$post_offset = $_POST['postoffset'];
+	$post_offset = $_GET['postoffset'];
 	$api_uri = "http://api.tumblr.com/v2/blog/yukithewonderpup.tumblr.com/";
 	$api_uri .= "posts?api_key=9qEk24ATIQWXXWwuix1JpQ6dQeiJdEfwGloFO4ADgYs9r60tHV";
 	$api_uri .= "&limit=1&offset=";
