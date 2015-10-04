@@ -13,13 +13,13 @@
 
 	
 	$blog_template = "<div id='post_date'>
-                        <h5>{$post_date}</h5>
+                        <h5>" . $post_date . "</h5>
                     </div>
                     <div id='post_title'>
-                        <h2>{$post_title}</h2>
+                        <h2>" . $post_title . "</h2>
                     </div>
                     <div id='post_text'>
-                    {$post_body}
+                    " . $post_body . "
                     </div>";
 
 	print $blog_template;
